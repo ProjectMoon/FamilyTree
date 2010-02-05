@@ -1,0 +1,31 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.DebuggingService>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FamilyTree/Person.cs" ctype="Workbench">
+    <Files>
+      <File FileName="FamilyTree/Default.aspx" Line="6" Column="8" />
+      <File FileName="FamilyTree/Default.aspx.cs" Line="38" Column="44" />
+      <File FileName="FamilyTree/Global.asax" Line="1" Column="1" />
+      <File FileName="FamilyTree/Global.asax.cs" Line="1" Column="1" />
+      <File FileName="FamilyTree/Person.cs" Line="37" Column="18" />
+      <File FileName="../MysqlTest/MysqlTest/Main.cs" Line="13" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="FamilyTree" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Default.aspx" expanded="True" />
+            <Node name="Global.asax" expanded="True" />
+            <Node name="Person.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

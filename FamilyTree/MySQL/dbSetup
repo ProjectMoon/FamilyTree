@@ -1,0 +1,55 @@
+create database FamilyTree;
+use FamilyTree;
+
+create table Person (
+Person_ID int unsigned not null auto_increment primary key,
+First_Name varchar(60),
+Middle_Name varchar(60),
+Last_Name varchar(60),
+Birth_Date date,
+Death_Date date );
+
+create table Genetics (
+Genetic_ID int unsigned not null auto_increment primary key,
+Person_ID int,
+Gender varchar(1),
+Eye_Clr int,
+Hair_Clr int,
+Skin_Clr int );
+
+create table Color (
+Color_ID int unsigned not null auto_increment primary key,
+Color_Purpose int,
+Color_Name varchar(60) );
+
+create table Heritage (
+Heritage_ID int unsigned not null auto_increment primary key,
+Nationality varchar(60) );
+
+create table Heritage_Link (
+Heritage_Link_ID int unsigned not null auto_increment primary key,
+Person_ID int,
+Heritage int );
+
+create table Area_Of_Interest (
+AOI_ID int unsigned not null auto_increment primary key,
+Interest_Name varchar(60) );
+
+create table Area_Of_Interest_Link (
+AOI_Link_ID int unsigned not null auto_increment primary key,
+Person_ID int,
+AOI_ID int );
+
+create table Parentage (
+Parantage_ID int unsigned not null auto_increment primary key,
+Person_ID int,
+Mother_ID int,
+Father_ID int,
+Adopted bool );
+
+create table Significant_Other (
+Sig_Other_ID int unsigned not null auto_increment primary key,
+Person_ID int,
+Sig_Person_ID int,
+Current bool );
+
