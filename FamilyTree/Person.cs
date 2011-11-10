@@ -10,7 +10,7 @@ namespace FamilyTree
 		/**
 		 * PersonID
 		 * Purpose: Property, gets and sets PersonID
-		 * Preconditions: None
+		 * Preconditions: Nonef
 		 * Postconditions: None
 		 * Parameters: 
 		 * Returns: PersonID
